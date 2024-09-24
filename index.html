@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Corner</title>
+    <link rel="shortcut icon" href="./Images/WhiteIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/main.css">
+</head>
+<body>
+    <header id="header">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo">
+                    <img src="./Images/CozyCornerBrownLogo.png" alt="CozyCorner Logo">
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a href="#scCarousel" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scBedroom" class="nav-link">BedRoom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scLivingRoom" class="nav-link">Living Room</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scOffice" class="nav-link">Office</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="scCarousel">
+        <div class="container">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./Images/bedroom.webp" alt="">
+                        <div class="carousel-caption text-start">
+                            <h2 class="fw-bold">Bedroom</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./Images/livingroom.jpeg" alt="">
+                        <div class="carousel-caption text-start">
+                            <h2 class="fw-bold">Living Room</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./Images/office.webp" alt="">
+                        <div class="carousel-caption text-start">
+                            <h2 class="fw-bold">Office</h2>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="scBedroom">
+        <div class="container">
+            <h2 class="fw-bold">Bedroom</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/bedroom_bed.webp">
+                        <h4 class="card-title fw-bold">Double Bed</h4>
+                        <p class="card-text">Queen Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/bedroom_wardrobe.webp">
+                        <h4 class="card-title fw-bold">Wradrobe</h4>
+                        <p class="card-text">Big Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/bedroom_criado.webp">
+                        <h4 class="card-title fw-bold">Bedside Table</h4>
+                        <p class="card-text">Medium Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="scLivingRoom">
+        <div class="container">
+            <h2 class="fw-bold">Living Room</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/living_couch.png">
+                        <h4 class="card-title fw-bold">Couch</h4>
+                        <p class="card-text">Small Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/living_panel.webp">
+                        <h4 class="card-title fw-bold">TV Panel</h4>
+                        <p class="card-text">Big Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/living_table.webp">
+                        <h4 class="card-title fw-bold">Center Table</h4>
+                        <p class="card-text">Medium Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="scOffice">
+        <div class="container">
+            <h2 class="fw-bold">Office</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/office_shelf.webp">
+                        <h4 class="card-title fw-bold">Books Shelf</h4>
+                        <p class="card-text">Small Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/office_desk.png">
+                        <h4 class="card-title fw-bold">Office Desk</h4>
+                        <p class="card-text">Big Size</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <img src="./Images/office_chair.webp">
+                        <h4 class="card-title fw-bold">Office Chair</h4>
+                        <p class="card-text">Presidential</p>
+                        <footer class="card-footer">
+                            <button class="btn btn-outline-primary">Buy it</button>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

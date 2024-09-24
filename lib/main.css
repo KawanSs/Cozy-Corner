@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy-Light.otf);
+}
+
+*{
+    font-family: 'Gilroy';
+}
+
+header .logo{
+    max-width: 7em;
+}
+header .logo img{
+    width: 100%;
+}
+.carousel-inner img{
+    filter: brightness(0.7);
+}
+section{
+    padding: 2em;
+}
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+h4, p{
+    margin-left: 8px;
+}
